@@ -40,3 +40,5 @@ printMain = do
     let starwarsResponse = decode jsonData :: Maybe StarWarsResponsePerson
     let starwarsResults = results <$> starwarsResponse
     printPerson starwarsResults
+
+--Need to change the 'results' object in data.josn to match star wars. Ghibli says "people", maybe change this or download it from internet again?
